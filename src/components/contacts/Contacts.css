@@ -1,0 +1,22 @@
+/* ANIMATION */
+
+.remove-btn {
+    margin-right: 0.5rem;
+  }
+  
+  .item-enter {
+    opacity: 0;
+  }
+  .item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  .item-exit {
+    transition: 0.5s;
+    transform: translateX(0)
+  }
+  .item-exit-active {
+    transform: translateX(+50%);
+    opacity: 0.1;
+  }
+  
